@@ -22,7 +22,7 @@ Backend
 - CRUD operations on posts and comments
 
 # Cloning this repository
-`git clone --recursive git@github.com:tituschewxj/gossip-app`
+`git clone --recursive git@github.com:tituschewxj/gossip-app.git`
 
 # Set up
 1. Run backend server on port 3000: `rails s`
