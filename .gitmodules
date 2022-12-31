@@ -1,0 +1,6 @@
+[submodule "gossip-app-frontend"]
+	path = gossip-app-frontend
+	url = https://github.com/tituschewxj/gossip-app-frontend
+[submodule "gossip-app-backend"]
+	path = gossip-app-backend
+	url = https://github.com/tituschewxj/gossip-app-backend
