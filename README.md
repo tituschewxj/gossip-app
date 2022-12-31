@@ -22,11 +22,11 @@ Backend
 - CRUD operations on posts and comments
 
 # Cloning this repository
-`git clone --recursive git@github.com:sivayogasubramanian/just-to-do-it.git`
+`git clone --recursive git@github.com:https://github.com/tituschewxj/gossip-app`
 
 # Set up
-- Run backend server on port 3000.
-- Run frontend server on port 3001. (Can do this by running backend server before frontend server)
+1. Run backend server on port 3000: `rails s`
+2. Run frontend server on port 3001: `npm run start` and type `y` to use port 3001
 
 # Submodules
 This project has 2 submodules
