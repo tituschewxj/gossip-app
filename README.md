@@ -12,6 +12,7 @@ Frontend
     - react query?
  - Typescript
  - MUI
+ 
 Backend
 - Ruby on Rails (as an API)
     - devise-jwt
