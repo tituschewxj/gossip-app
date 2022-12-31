@@ -1,5 +1,5 @@
 # Gossip-app
-A forum made for the CVWO assignment
+A forum made for the CVWO assignment. Still work in progress.
 
 # Overview
 Gossip-app is a simple forum that allows for posting and commenting.
@@ -12,7 +12,7 @@ Frontend
     - react query?
  - Typescript
  - MUI
- 
+
 Backend
 - Ruby on Rails (as an API)
     - devise-jwt
