@@ -7,19 +7,23 @@ Gossip-app is a simple forum that allows for posting and commenting.
 # Technologies used
 Frontend
  - React.js
-    - axois
+    - axios
+    - react query
     - moment
-    - react query?
  - Typescript
  - MUI
 
 Backend
 - Ruby on Rails (as an API)
     - devise-jwt
+    - faker
 - sqlite
 
 # Features
 - CRUD operations on posts and comments
+- User authentication with JWT
+- Searching of posts via tags
+- User profile pages
 
 # Cloning this repository
 `git clone --recursive git@github.com:tituschewxj/gossip-app.git`
@@ -32,5 +36,9 @@ Backend
 This project has 2 submodules
 1. `gossip-app-backend` contains code for the backend api.
 2. `gossip-app-frontend` contains code for the frontend.
+
+# Login information for dummy users
+Default email: `${username}@email.com`
+Default password: `password`
 
 <!-- # Final DB Schema -->
