@@ -24,6 +24,7 @@ Backend
 - User authentication with JWT
 - Searching of posts via tags
 - User profile pages
+- Pagination
 
 ## Cloning this repository
 `git clone --recursive git@github.com:tituschewxj/gossip-app.git`
