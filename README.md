@@ -17,6 +17,7 @@ Backend
 - Ruby on Rails (as an API)
     - devise-jwt
     - faker
+    - kaminari
 - sqlite
 
 ## Features
