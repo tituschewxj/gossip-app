@@ -30,7 +30,7 @@ Backend
 
 ## Set up
 1. Run backend server on port 3000: `rails s`
-2. Run frontend server on port 3001: `npm run start` and type `y` to use port 3001
+2. Run frontend server on port 3001: `yarn run start` and type `y` to use port 3001
 
 ### Login information for dummy users
 - Default email: `${username}@email.com`
