@@ -17,6 +17,7 @@ Backend
 - Ruby on Rails (as an API)
     - devise-jwt
     - faker
+    - kaminari
 - sqlite
 
 ## Features
@@ -24,13 +25,14 @@ Backend
 - User authentication with JWT
 - Searching of posts via tags
 - User profile pages
+- Pagination
 
 ## Cloning this repository
 `git clone --recursive git@github.com:tituschewxj/gossip-app.git`
 
 ## Set up
 1. Run backend server on port 3000: `rails s`
-2. Run frontend server on port 3001: `npm run start` and type `y` to use port 3001
+2. Run frontend server on port 3001: `yarn run start` and type `y` to use port 3001
 
 ### Login information for dummy users
 - Default email: `${username}@email.com`
