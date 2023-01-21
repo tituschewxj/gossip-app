@@ -2,7 +2,25 @@
 A forum made for the CVWO assignment.
 
 ## Overview
-Gossip-app is a simple forum that allows for posting and commenting.
+Gossip-app is a minimalistic forum.
+
+## Showcase
+![Searching with tags](assets/chrome-capture-2023-0-22%20(1).png)
+![Searching with tags](assets/chrome-capture-2023-0-22%20(2).png)
+![Searching with tags](assets/chrome-capture-2023-0-22%20(3).png)
+![Searching with tags](assets/chrome-capture-2023-0-22%20(4).png)
+![Searching with tags](assets/chrome-capture-2023-0-22%20(5).png)
+![Searching with tags](assets/chrome-capture-2023-0-22%20(6).png)
+![Searching with tags](assets/chrome-capture-2023-0-22%20(7).png)
+![Searching with tags](assets/chrome-capture-2023-0-22.png)
+
+## Features
+- CRUD operations on posts and comments
+- User authentication with JWT
+- Searching of posts via tags
+- User profile pages
+- Pagination
+- Input validation
 
 ### Technologies used
 Frontend
@@ -19,14 +37,6 @@ Backend
     - faker
     - kaminari
 - SQLite
-
-## Features
-- CRUD operations on posts and comments
-- User authentication with JWT
-- Searching of posts via tags
-- User profile pages
-- Pagination
-- Input validation
 
 ## Final DB Schema
 ![DB Schema Diagram](assets/db-schema-diagram.png)
