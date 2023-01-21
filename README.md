@@ -44,7 +44,7 @@ generated with https://dbdiagram.io/
 
 ## Set up
 ### Cloning this repository
-Use `git clone --recursive git@github.com:tituschewxj/gossip-app.git` to clone this repository.
+Use `git clone --recursive https://github.com/tituschewxj/gossip-app.git` to clone this repository.
 
 ### Installing dependencies
 The frontend uses yarn as it's package manager.
