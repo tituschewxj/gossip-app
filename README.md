@@ -44,5 +44,5 @@ This project has 2 submodules
 2. `gossip-app-frontend` contains code for the frontend.
 
 # Final DB Schema
-![DB Schema Diagram](assets/db-schema-diagram)
+![DB Schema Diagram](assets/db-schema-diagram.png)
 generated with https://dbdiagram.io/d
