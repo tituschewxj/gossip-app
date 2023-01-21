@@ -10,15 +10,15 @@ Frontend
     - axios
     - react query
     - moment
+    - MUI
  - Typescript
- - MUI
 
 Backend
 - Ruby on Rails (as an API)
     - devise-jwt
     - faker
     - kaminari
-- sqlite
+- SQLite
 
 ## Features
 - CRUD operations on posts and comments
@@ -34,7 +34,7 @@ Backend
 1. Run backend server on port 3000: `rails s`
 2. Run frontend server on port 3001: `yarn run start` and type `y` to use port 3001
 
-### Login information for dummy users
+### Login information for pre-generated fake users
 - Default email: `${username}@email.com`
 - Default password: `password`
 
@@ -43,4 +43,6 @@ This project has 2 submodules
 1. `gossip-app-backend` contains code for the backend api.
 2. `gossip-app-frontend` contains code for the frontend.
 
-<!-- # Final DB Schema -->
+# Final DB Schema
+![DB Schema Diagram](assets/db-schema-diagram)
+generated with https://dbdiagram.io/d
