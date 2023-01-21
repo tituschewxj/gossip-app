@@ -28,6 +28,10 @@ Backend
 - Pagination
 - Input validation
 
+## Final DB Schema
+![DB Schema Diagram](assets/db-schema-diagram.png)
+generated with https://dbdiagram.io/
+
 ## Set up
 ### Cloning this repository
 Use `git clone --recursive git@github.com:tituschewxj/gossip-app.git` to clone this repository.
@@ -50,7 +54,3 @@ Use `bundle install` to install dependencies in the backend.
 This project has 2 submodules
 1. `gossip-app-backend` contains the source code for the backend api.
 2. `gossip-app-frontend` contains the source code for the frontend.
-
-# Final DB Schema
-![DB Schema Diagram](assets/db-schema-diagram.png)
-generated with https://dbdiagram.io/
