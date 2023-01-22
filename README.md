@@ -1,8 +1,13 @@
 # Gossip-app
-A forum made for the CVWO assignment.
+Gossip-app is a minimalistic forum made for the CVWO assignment.
 
-## Overview
-Gossip-app is a minimalistic forum.
+## Features
+- CRUD operations on posts and comments
+- User authentication with JWT
+- Searching of posts via tags
+- User profile pages
+- Pagination
+- Input validation
 
 ## Showcase
 ![Searching with tags](assets/chrome-capture-2023-0-22%20(1).png)
@@ -14,13 +19,8 @@ Gossip-app is a minimalistic forum.
 ![Searching with tags](assets/chrome-capture-2023-0-22%20(7).png)
 ![Searching with tags](assets/chrome-capture-2023-0-22.png)
 
-## Features
-- CRUD operations on posts and comments
-- User authentication with JWT
-- Searching of posts via tags
-- User profile pages
-- Pagination
-- Input validation
+### Write-up
+The mid and final submission write-ups can be found in the write-up folder.
 
 ### Technologies used
 Frontend
@@ -48,21 +48,23 @@ Use `git clone --recursive https://github.com/tituschewxj/gossip-app.git` to clo
 
 ### Installing dependencies
 The frontend uses yarn as it's package manager.
-Use `yarn install` to install all dependencies in the frontend.
+Use `yarn install` to install dependencies in the frontend.
 
 Use `bundle install` to install dependencies in the backend.
 
 ### Running the application
 1. Run backend server on port 3000: `rails s`
-2. Run frontend server on port 3001: `yarn run start` and type `y` to use port 3001
+2. Run frontend server on port 3001: `yarn run start`
 
 #### Login information for pre-generated fake users
 - Default email: `${username}@email.com`
 - Default password: `password`
 
 ## Submodules
-This project has 2 submodules
+This project has 2 submodules.
+<!-- Update submodules with git submodule update --remote -->
 1. `gossip-app-backend` contains the source code for the backend api.
 2. `gossip-app-frontend` contains the source code for the frontend.
 
-<!-- Update submodules with git submodule update --remote -->
+### Other details
+- In `devise.rb`, the `jwt.expiration_time` is set to 30 minutes.
