@@ -21,6 +21,9 @@ Gossip-app is a minimalistic forum made for the CVWO assignment.
 
 ### Write-up
 The mid and final submission write-ups can be found in the write-up folder.
+- [Mid-Submission: Execution plan and Use cases](main/write-up/TitusChewXuanJun_A0251687U.pdf)
+- [Final-Submission: Accomplishments and User manual](main/write-up/TitusChewXuanJun_A0251687U_FinalWriteup.pdf)
+
 
 ### Technologies used
 Frontend
