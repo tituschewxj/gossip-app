@@ -48,6 +48,7 @@ Use `git clone --recursive https://github.com/tituschewxj/gossip-app.git` to clo
 
 ### Installing dependencies
 The frontend uses yarn as it's package manager.
+
 Use `yarn install` to install dependencies in the frontend.
 
 Use `bundle install` to install dependencies in the backend.
