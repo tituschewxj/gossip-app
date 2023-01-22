@@ -64,3 +64,5 @@ Use `bundle install` to install dependencies in the backend.
 This project has 2 submodules
 1. `gossip-app-backend` contains the source code for the backend api.
 2. `gossip-app-frontend` contains the source code for the frontend.
+
+<!-- Update submodules with git submodule update --remote -->
